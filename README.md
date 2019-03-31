@@ -80,6 +80,7 @@ Licensed under the MIT license.
 
 [Node.js]: http://nodejs.org/
 [NPM]: https://www.npmjs.com/
+[Yarn]: https://yarnpkg.com/
 [RequireJS]: https://requirejs.org/
 [Babel]: http://babeljs.io
 [@babel/standalone]: https://github.com/babel/babel/tree/master/packages/babel-standalone
