@@ -30,7 +30,7 @@
     "test": "eslint index.js"
   },
   "devDependencies": {
-    "eslint": "5.16.0"
+    "eslint": "6.6.0"
   },
   "keywords": [
     "babel-plugin",
