@@ -1,7 +1,0 @@
-.DS_Store
-.editorconfig
-.git
-.gitignore
-.npmignore
-node_modules
-npm-debug.log

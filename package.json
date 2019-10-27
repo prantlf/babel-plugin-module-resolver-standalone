@@ -26,6 +26,9 @@
     "node": ">=6"
   },
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "eslint index.js"
   },
