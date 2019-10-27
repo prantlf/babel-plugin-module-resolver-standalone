@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-module-resolver-standalone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Module resolver plugin for Babel usable in both Node.js the web browser environments",
   "author": {
     "name": "Ferdinand Prantl",
