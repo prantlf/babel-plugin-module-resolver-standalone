@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-module-resolver-standalone",
-  "version": "0.0.2",
+  "version": "0.0.0-development",
   "description": "Module resolver plugin for Babel usable in both Node.js the web browser environments",
   "author": {
     "name": "Ferdinand Prantl",
@@ -32,8 +32,20 @@
   "scripts": {
     "test": "eslint index.js"
   },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      ["@semantic-release/github", { "failComment": false }],
+      "@semantic-release/git"
+    ]
+  },
   "devDependencies": {
-    "eslint": "6.6.0"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "eslint": "^8.5.0"
   },
   "keywords": [
     "babel-plugin",
