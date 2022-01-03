@@ -1,7 +1,8 @@
 # babel-plugin-module-resolver-standalone
 
-[![NPM version](https://badge.fury.io/js/babel-plugin-module-resolver-standalone.png)](http://badge.fury.io/js/babel-plugin-module-resolver-standalone)
-[![devDependency Status](https://david-dm.org/prantlf/babel-plugin-module-resolver-standalone/dev-status.svg)](https://david-dm.org/prantlf/babel-plugin-module-resolver-standalone#info=devDependencies)
+[![Latest version](https://img.shields.io/npm/v/babel-plugin-imodule-resolver-standalone)
+ ![Dependency status](https://img.shields.io/librariesio/release/npm/babel-plugin-module-resolver-standalone)
+](https://www.npmjs.com/package/babel-plugin-module-resolver-standalone)
 
 A [Babel] plugin to add a new resolver for your modules when compiling your code using Babel. This plugin allows you to transform the path of each source module using a custom JavaScript function.
 
@@ -16,13 +17,11 @@ This plugin can be used instead of [babel-plugin-module-resolver], if the target
 
 ## Installation
 
-This module can be installed in your project using [NPM] or [Yarn]. Make sure, that you use [Node.js] version 6 or newer.
+This module can be installed in your project using [NPM], [PNPM or [Yarn]. Make sure, that you use [Node.js] version 6 or newer.
 
 ```sh
 npm i -D babel-plugin-module-resolver-standalone
-```
-
-```sh
+pnpm i -D babel-plugin-module-resolver-standalone
 yarn add babel-plugin-module-resolver-standalone
 ```
 
@@ -70,7 +69,7 @@ Ensure, that all JavaScript module paths are prefixed by `es6!`, so that [requir
 
 ## Contributing
 
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality.
+In lieu of a formal styleguide, take care to maintain the existing coding style. Lint and test your code.
 
 ## License
 
@@ -80,6 +79,7 @@ Licensed under the MIT license.
 
 [Node.js]: http://nodejs.org/
 [NPM]: https://www.npmjs.com/
+[PNPM]: https://pnpm.io/
 [Yarn]: https://yarnpkg.com/
 [RequireJS]: https://requirejs.org/
 [Babel]: http://babeljs.io
